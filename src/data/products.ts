@@ -1,0 +1,88 @@
+import type { Category, Product } from '../types'
+
+export const CATEGORIES: Category[] = ['Roti', 'Pastry', 'Dessert']
+
+/** Seluruh produk & harga adalah DATA DEMONSTRASI (fiktif). */
+export const PRODUCTS: Product[] = [
+  {
+    id: 'croissant-butter',
+    name: 'Croissant Butter',
+    description: 'Lapisan renyah beraroma mentega, dilipat dan dipanggang segar setiap pagi.',
+    price: 18000,
+    category: 'Pastry',
+    image: '/images/croissant-butter.jpg',
+    imageAlt: 'Dua croissant butter keemasan di atas meja gelap bertabur tepung',
+  },
+  {
+    id: 'croissant-klasik',
+    name: 'Croissant Klasik Mini',
+    description: 'Ukuran mungil untuk teman kopi: renyah di luar, lembut berserat di dalam.',
+    price: 14000,
+    category: 'Pastry',
+    image: '/images/croissant-klasik.jpg',
+    imageAlt: 'Tumpukan croissant mini keemasan di etalase bakery',
+  },
+  {
+    id: 'cinnamon-roll',
+    name: 'Cinnamon Roll',
+    description: 'Gulungan kayu manis hangat dengan taburan gula mutiara, lembut dan wangi.',
+    price: 20000,
+    category: 'Pastry',
+    image: '/images/cinnamon-roll.jpg',
+    imageAlt: 'Cinnamon roll bertabur gula mutiara di atas loyang gelap',
+  },
+  {
+    id: 'roti-gandum',
+    name: 'Roti Gandum Iris',
+    description: 'Roti gandum utuh bertekstur padat dan gurih, cocok untuk sarapan sehat.',
+    price: 28000,
+    category: 'Roti',
+    image: '/images/roti-gandum.jpg',
+    imageAlt: 'Roti gandum yang sudah diiris di atas talenan kayu',
+  },
+  {
+    id: 'sourdough',
+    name: 'Sourdough Desa',
+    description: 'Fermentasi alami 24 jam, kulit renyah dan rasa asam lembut yang khas.',
+    price: 42000,
+    category: 'Roti',
+    image: '/images/sourdough.jpg',
+    imageAlt: 'Sebuah roti sourdough bundar bertabur tepung',
+  },
+  {
+    id: 'roti-biji',
+    name: 'Roti Biji Bunga Matahari',
+    description: 'Roti rustic bertabur biji bunga matahari yang gurih dan mengenyangkan.',
+    price: 35000,
+    category: 'Roti',
+    image: '/images/roti-biji.jpg',
+    imageAlt: 'Roti rustic dengan biji bunga matahari dan tangkai gandum',
+  },
+  {
+    id: 'roti-manis-aneka',
+    name: 'Paket Roti Aneka',
+    description: 'Campuran baguette dan roti harian pilihan dapur kami untuk berbagi di rumah.',
+    price: 45000,
+    category: 'Roti',
+    image: '/images/roti-manis-aneka.jpg',
+    imageAlt: 'Aneka roti dan baguette hangat bertumpuk',
+  },
+  {
+    id: 'donat-glaze',
+    name: 'Donat Glaze Stroberi',
+    description: 'Donat empuk dengan glasir stroberi manis dan taburan warna-warni.',
+    price: 12000,
+    category: 'Dessert',
+    image: '/images/donat-glaze.jpg',
+    imageAlt: 'Donat dengan glasir merah muda dan taburan di latar merah muda',
+  },
+  {
+    id: 'cupcake-mint',
+    name: 'Cupcake Buttercream Mint',
+    description: 'Cupcake vanila dengan buttercream mint lembut dan taburan warna.',
+    price: 16000,
+    category: 'Dessert',
+    image: '/images/cupcake-mint.jpg',
+    imageAlt: 'Deretan cupcake dengan buttercream mint dan taburan warna-warni',
+  },
+]
